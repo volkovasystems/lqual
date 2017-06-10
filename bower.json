@@ -1,0 +1,29 @@
+{
+  "name": "lqual",
+  "version": "0.0.0",
+  "description": "First level equal.",
+  "main": "lqual.deploy.js",
+  "support": "lqual.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "first",
+    "level",
+    "equal"
+  ],
+  "homepage": "https://github.com/volkovasystems/lqual",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "eqe": "^0.3.0",
+    "kount": "^0.11.0",
+    "protype": "^0.22.0"
+  }
+}
