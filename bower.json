@@ -1,6 +1,6 @@
 {
   "name": "lqual",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "First level equal.",
   "main": "lqual.deploy.js",
   "support": "lqual.support.js",
@@ -22,8 +22,11 @@
     "tests"
   ],
   "dependencies": {
+    "calcify": "^0.8.0",
+    "doubt": "^0.27.0",
     "eqe": "^0.3.0",
     "kount": "^0.11.0",
-    "protype": "^0.22.0"
+    "protype": "^0.22.0",
+    "raze": "^0.30.0"
   }
 }

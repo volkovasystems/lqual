@@ -47,16 +47,22 @@
               
               	@include:
               		{
+              			"calcify": "calcify",
+              			"doubt": "doubt",
               			"eqe": "eqe",
               			"kount": "kount",
-              			"protype": "protype"
+              			"protype": "protype",
+              			"raze": "raze"
               		}
               	@end-include
               */var _keys = require("babel-runtime/core-js/object/keys");var _keys2 = _interopRequireDefault(_keys);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
+var calcify = require("calcify");
+var doubt = require("doubt");
 var eqe = require("eqe");
 var kount = require("kount");
 var protype = require("protype");
+var raze = require("raze");
 
 var lqual = function lqual(source, target) {
 	/*;
@@ -72,8 +78,21 @@ var lqual = function lqual(source, target) {
 		return true;
 	}
 
-	if (!protype(source, FUNCTION + OBJECT) || !protype(target, FUNCTION + OBJECT)) {
+	try {
+		if (calcify(source) == calcify(target)) {
+			return true;
+		}
+	} catch (error) {}
+
+	if (!protype(source, OBJECT) || !protype(target, OBJECT)) {
 		return false;
+	}
+
+	if (doubt(source, AS_ARRAY) && doubt(target, AS_ARRAY)) {
+		source = raze(source);
+		target = raze(target);
+
+		return source.every(function (element, index) {return eqe(element, target[index]);}) && source.length == target.length;
 	}
 
 	if (kount(source) != kount(target)) {

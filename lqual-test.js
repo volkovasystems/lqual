@@ -16,4 +16,6 @@ assert.equal( lqual( true, true ), true, "should return true" );
 
 assert.equal( lqual( true, false ), false, "should return false" );
 
+assert.equal( lqual( [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 4, 5 ] ), true, "should return true" );
+
 console.log( "ok" );

@@ -1,8 +1,11 @@
 yarn add \
 babel-runtime \
+calcify \
+doubt \
 eqe \
 kount \
 protype \
+raze \
 --save && \
 yarn add \
 babel-cli \
@@ -13,8 +16,11 @@ source-map-loader \
 webpack \
 --dev && \
 bower install \
+calcify \
+doubt \
 eqe \
 kount \
 protype \
+raze \
 --save \
 --force-latest

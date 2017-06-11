@@ -47,16 +47,22 @@
 
 	@include:
 		{
+			"calcify": "calcify",
+			"doubt": "doubt",
 			"eqe": "eqe",
 			"kount": "kount",
-			"protype": "protype"
+			"protype": "protype",
+			"raze": "raze"
 		}
 	@end-include
 */
 
+const calcify = require( "calcify" );
+const doubt = require( "doubt" );
 const eqe = require( "eqe" );
 const kount = require( "kount" );
 const protype = require( "protype" );
+const raze = require( "raze" );
 
 const lqual = function lqual( source, target ){
 	/*;
@@ -72,8 +78,21 @@ const lqual = function lqual( source, target ){
 		return true;
 	}
 
-	if( !protype( source, FUNCTION + OBJECT ) || !protype( target, FUNCTION + OBJECT ) ){
+	try{
+		if( calcify( source ) == calcify( target ) ){
+			return true;
+		}
+	}catch( error ){ }
+
+	if( !protype( source, OBJECT ) || !protype( target, OBJECT ) ){
 		return false;
+	}
+
+	if( doubt( source, AS_ARRAY ) && doubt( target, AS_ARRAY ) ){
+		source = raze( source );
+		target = raze( target );
+
+		return source.every( ( element, index ) => eqe( element, target[ index ] ) ) && source.length == target.length;
 	}
 
 	if( kount( source ) != kount( target ) ){
