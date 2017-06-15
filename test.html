@@ -1,8 +1,40 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<script
-			type="application/javascript"
-			src="./lqual.deploy.js">
-		</script>
+		<title>lqual unit test</title>
+
+		<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.3.2.css">
+
+		<script type="application/javascript" src="https://code.jquery.com/qunit/qunit-2.3.2.js"></script>
+
+		<script type="application/javascript" src="./lqual.deploy.js"></script>
 	</head>
+
+	<body>
+		<div id="qunit"></div>
+
+		<div id="qunit-fixture"></div>
+
+		<script type="application/javascript">
+			QUnit.test( "lqual unit test", function( assert ) {
+
+				assert.equal( lqual( 0, 0 ), true, "should return true" );
+
+				assert.equal( lqual( null, null ), true, "should return true" );
+
+				assert.equal( lqual( undefined, undefined ), true, "should return true" );
+
+				assert.equal( lqual( { }, { } ), true, "should return true" );
+
+				assert.equal( lqual( window, window ), true, "should return true" );
+
+				assert.equal( lqual( true, true ), true, "should return true" );
+
+				assert.equal( lqual( true, false ), false, "should return false" );
+
+				assert.equal( lqual( [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 4, 5 ] ), true, "should return true" );
+
+			} );
+		</script>
+	</body>
 </html>
