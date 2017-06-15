@@ -1,6 +1,6 @@
 {
   "name": "lqual",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "First level equal.",
   "main": "lqual.js",
   "support": "lqual.support.js",
@@ -20,6 +20,10 @@
     "equal"
   ],
   "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "contributors": [
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+    "Vinse Vinalon"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/volkovasystems/lqual/issues"
@@ -27,7 +31,7 @@
   "homepage": "https://github.com/volkovasystems/lqual#readme",
   "dependencies": {
     "babel-runtime": "^6.23.0",
-    "calcify": "^0.8.0",
+    "calcify": "^0.9.0",
     "doubt": "^0.27.0",
     "eqe": "^0.3.0",
     "kount": "^0.11.0",
