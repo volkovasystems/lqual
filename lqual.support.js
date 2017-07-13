@@ -55,17 +55,15 @@
               			"doubt": "doubt",
               			"eqe": "eqe",
               			"kount": "kount",
-              			"protype": "protype",
               			"raze": "raze"
               		}
               	@end-include
-              */var _keys = require("babel-runtime/core-js/object/keys");var _keys2 = _interopRequireDefault(_keys);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+              */var _keys = require("babel-runtime/core-js/object/keys");var _keys2 = _interopRequireDefault(_keys);var _typeof2 = require("babel-runtime/helpers/typeof");var _typeof3 = _interopRequireDefault(_typeof2);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 var calcify = require("calcify");
 var doubt = require("doubt");
 var eqe = require("eqe");
 var kount = require("kount");
-var protype = require("protype");
 var raze = require("raze");
 
 var lqual = function lqual(source, target) {
@@ -88,7 +86,7 @@ var lqual = function lqual(source, target) {
 		}
 	} catch (error) {}
 
-	if (!protype(source, OBJECT) || !protype(target, OBJECT)) {
+	if ((typeof source === "undefined" ? "undefined" : (0, _typeof3.default)(source)) != "object" || (typeof target === "undefined" ? "undefined" : (0, _typeof3.default)(target)) != "object") {
 		return false;
 	}
 

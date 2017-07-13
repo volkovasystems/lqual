@@ -4,7 +4,6 @@ calcify \
 doubt \
 eqe \
 kount \
-protype \
 raze \
 --save && \
 yarn add \
@@ -20,7 +19,6 @@ calcify \
 doubt \
 eqe \
 kount \
-protype \
 raze \
 --save \
 --force-latest

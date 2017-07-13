@@ -55,7 +55,6 @@
 			"doubt": "doubt",
 			"eqe": "eqe",
 			"kount": "kount",
-			"protype": "protype",
 			"raze": "raze"
 		}
 	@end-include
@@ -65,7 +64,6 @@ const calcify = require( "calcify" );
 const doubt = require( "doubt" );
 const eqe = require( "eqe" );
 const kount = require( "kount" );
-const protype = require( "protype" );
 const raze = require( "raze" );
 
 const lqual = function lqual( source, target ){
@@ -88,7 +86,7 @@ const lqual = function lqual( source, target ){
 		}
 	}catch( error ){ }
 
-	if( !protype( source, OBJECT ) || !protype( target, OBJECT ) ){
+	if( typeof source != "object" || typeof target != "object" ){
 		return false;
 	}
 

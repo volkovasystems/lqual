@@ -1,13 +1,13 @@
 {
   "name": "lqual",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "First level equal.",
   "main": "lqual.deploy.js",
   "support": "lqual.support.js",
   "authors": [
     "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
     "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
-    "Vinse Vinalon"
+    "Vinse Vinalon <vinsevinalon@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
@@ -24,11 +24,10 @@
     "tests"
   ],
   "dependencies": {
-    "calcify": "^0.9.0",
-    "doubt": "^0.27.0",
-    "eqe": "^0.3.0",
+    "calcify": "^0.10.0",
+    "doubt": "^0.30.0",
+    "eqe": "^0.4.0",
     "kount": "^0.11.0",
-    "protype": "^0.22.0",
-    "raze": "^0.30.0"
+    "raze": "^0.33.0"
   }
 }
