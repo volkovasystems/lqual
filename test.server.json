@@ -1,16 +1,130 @@
 {
-  "stats": {
-    "suites": 0,
-    "tests": 0,
-    "passes": 0,
-    "pending": 0,
-    "failures": 0,
-    "start": "2017-08-10T11:32:18.826Z",
-    "end": "2017-08-10T11:32:18.827Z",
-    "duration": 1
-  },
-  "tests": [],
-  "pending": [],
-  "failures": [],
-  "passes": []
+	"stats": {
+		"suites": 9,
+		"tests": 8,
+		"passes": 8,
+		"pending": 0,
+		"failures": 0,
+		"start": "2017-09-06T04:04:06.487Z",
+		"end": "2017-09-06T04:04:06.493Z",
+		"duration": 6
+	},
+	"tests": [
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( 0, 0 )` should be first level equal",
+			"duration": 1,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( null, null )` should be first level equal",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( undefined, undefined )` should be first level equal",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( { }, { } )` should be first level equal",
+			"duration": 2,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( global, global )` should be first level equal",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( true, true )` should be first level equal",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 4, 5 ] )` should be first level equal",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should not be first level equal",
+			"fullTitle": "lqual `lqual( true, false )` should not be first level equal",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		}
+	],
+	"pending": [],
+	"failures": [],
+	"passes": [
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( 0, 0 )` should be first level equal",
+			"duration": 1,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( null, null )` should be first level equal",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( undefined, undefined )` should be first level equal",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( { }, { } )` should be first level equal",
+			"duration": 2,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( global, global )` should be first level equal",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( true, true )` should be first level equal",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be first level equal",
+			"fullTitle": "lqual `lqual( [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 4, 5 ] )` should be first level equal",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should not be first level equal",
+			"fullTitle": "lqual `lqual( true, false )` should not be first level equal",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		}
+	]
 }

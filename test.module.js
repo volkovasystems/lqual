@@ -67,28 +67,181 @@ const path = require( "path" );
 
 
 //: @server:
-
 describe( "lqual", ( ) => {
 
-} );
+	describe( "`lqual( 0, 0 )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			assert.equal( lqual( 0, 0 ), true );
+		} );
+	} );
 
+	describe( "`lqual( null, null )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			assert.equal( lqual( null, null ), true );
+		} );
+	} );
+
+	describe( "`lqual( undefined, undefined )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			assert.equal( lqual( undefined, undefined ), true );
+		} );
+	} );
+
+	describe( "`lqual( { }, { } )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			assert.equal( lqual( { }, { } ), true );
+		} );
+	} );
+
+	describe( "`lqual( global, global )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			assert.equal( lqual( global, global ), true );
+		} );
+	} );
+
+	describe( "`lqual( true, true )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			assert.equal( lqual( true, true ), true );
+		} );
+	} );
+
+	describe( "`lqual( [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 4, 5 ] )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			assert.equal( lqual( [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 4, 5 ] ), true );
+		} );
+	} );
+
+	describe( "`lqual( true, false )`", ( ) => {
+		it( "should not be first level equal", ( ) => {
+			assert.equal( lqual( true, false ), false );
+		} );
+	} );
+
+} );
 //: @end-server
 
 
 //: @client:
 
-describe( "lqual", ( ) => {
-
-
-} );
-
 //: @end-client
 
 
 //: @bridge:
-
 describe( "lqual", ( ) => {
 
-} );
+	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
 
+	describe( "`lqual( 0, 0 )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return lqual( 0, 0 );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+		} );
+	} );
+
+	describe( "`lqual( null, null )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return lqual( null, null );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+		} );
+	} );
+
+	describe( "`lqual( undefined, undefined )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return lqual( undefined, undefined );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+		} );
+	} );
+
+	describe( "`lqual( { }, { } )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return lqual( { }, { } );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+		} );
+	} );
+
+	describe( "`lqual( window, window )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return lqual( window, window );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+		} );
+	} );
+
+	describe( "`lqual( true, true )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return lqual( true, true );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+		} );
+	} );
+
+	describe( "`lqual( [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 4, 5 ] )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return lqual( [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 4, 5 ] );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+		} );
+	} );
+
+	describe( "`lqual( true, false )`", ( ) => {
+		it( "should not be first level equal", ( ) => {
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return lqual( true, false );
+				}
+
+			).value;
+			
+			assert.equal( result, false );
+		} );
+	} );
+
+} );
 //: @end-bridge

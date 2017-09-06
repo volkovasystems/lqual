@@ -1,0 +1,308 @@
+{
+	"state": {
+		"passed": 8,
+		"failed": 0,
+		"skipped": 0
+	},
+	"start": "2017-09-06T04:04:07.678Z",
+	"end": "2017-09-06T04:04:58.857Z",
+	"capabilities": {
+		"browserName": "chrome",
+		"chromeOptions": {
+			"args": [
+				"disable-gpu",
+				"headless"
+			]
+		},
+		"proxy": null
+	},
+	"host": "127.0.0.1",
+	"port": 4444,
+	"baseUrl": "http://localhost",
+	"framework": "mocha",
+	"mochaOpts": {
+		"timeout": 10000,
+		"ui": "bdd"
+	},
+	"suites": [
+		{
+			"name": "lqual",
+			"duration": 0,
+			"start": "2017-09-06T04:04:58.026Z",
+			"tests": [],
+			"hooks": []
+		},
+		{
+			"name": "lqual",
+			"duration": 647,
+			"start": "2017-09-06T04:04:58.027Z",
+			"end": "2017-09-06T04:04:58.674Z",
+			"tests": [],
+			"hooks": [
+				{
+					"start": "2017-09-06T04:04:58.029Z",
+					"end": "2017-09-06T04:04:58.029Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.196Z",
+					"end": "2017-09-06T04:04:58.197Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.198Z",
+					"end": "2017-09-06T04:04:58.199Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.273Z",
+					"end": "2017-09-06T04:04:58.274Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.274Z",
+					"end": "2017-09-06T04:04:58.274Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.347Z",
+					"end": "2017-09-06T04:04:58.347Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.348Z",
+					"end": "2017-09-06T04:04:58.348Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.413Z",
+					"end": "2017-09-06T04:04:58.413Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.413Z",
+					"end": "2017-09-06T04:04:58.414Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.482Z",
+					"end": "2017-09-06T04:04:58.482Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.483Z",
+					"end": "2017-09-06T04:04:58.483Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.549Z",
+					"end": "2017-09-06T04:04:58.549Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.550Z",
+					"end": "2017-09-06T04:04:58.550Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.607Z",
+					"end": "2017-09-06T04:04:58.607Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.610Z",
+					"end": "2017-09-06T04:04:58.611Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should not be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.674Z",
+					"end": "2017-09-06T04:04:58.674Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should not be first level equal"
+				},
+				{
+					"start": "2017-09-06T04:04:58.676Z",
+					"end": "2017-09-06T04:04:58.677Z",
+					"duration": 1,
+					"title": "\"after all\" hook",
+					"associatedSuite": "lqual"
+				}
+			]
+		},
+		{
+			"name": "`lqual( 0, 0 )`",
+			"duration": 170,
+			"start": "2017-09-06T04:04:58.028Z",
+			"end": "2017-09-06T04:04:58.198Z",
+			"tests": [
+				{
+					"name": "should be first level equal",
+					"start": "2017-09-06T04:04:58.028Z",
+					"end": "2017-09-06T04:04:58.196Z",
+					"duration": 168,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`lqual( null, null )`",
+			"duration": 76,
+			"start": "2017-09-06T04:04:58.198Z",
+			"end": "2017-09-06T04:04:58.274Z",
+			"tests": [
+				{
+					"name": "should be first level equal",
+					"start": "2017-09-06T04:04:58.198Z",
+					"end": "2017-09-06T04:04:58.273Z",
+					"duration": 75,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`lqual( undefined, undefined )`",
+			"duration": 73,
+			"start": "2017-09-06T04:04:58.274Z",
+			"end": "2017-09-06T04:04:58.347Z",
+			"tests": [
+				{
+					"name": "should be first level equal",
+					"start": "2017-09-06T04:04:58.274Z",
+					"end": "2017-09-06T04:04:58.346Z",
+					"duration": 72,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`lqual( { }, { } )`",
+			"duration": 66,
+			"start": "2017-09-06T04:04:58.347Z",
+			"end": "2017-09-06T04:04:58.413Z",
+			"tests": [
+				{
+					"name": "should be first level equal",
+					"start": "2017-09-06T04:04:58.348Z",
+					"end": "2017-09-06T04:04:58.412Z",
+					"duration": 64,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`lqual( window, window )`",
+			"duration": 69,
+			"start": "2017-09-06T04:04:58.413Z",
+			"end": "2017-09-06T04:04:58.482Z",
+			"tests": [
+				{
+					"name": "should be first level equal",
+					"start": "2017-09-06T04:04:58.413Z",
+					"end": "2017-09-06T04:04:58.482Z",
+					"duration": 69,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`lqual( true, true )`",
+			"duration": 68,
+			"start": "2017-09-06T04:04:58.482Z",
+			"end": "2017-09-06T04:04:58.550Z",
+			"tests": [
+				{
+					"name": "should be first level equal",
+					"start": "2017-09-06T04:04:58.482Z",
+					"end": "2017-09-06T04:04:58.547Z",
+					"duration": 65,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`lqual( [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 4, 5 ] )`",
+			"duration": 57,
+			"start": "2017-09-06T04:04:58.550Z",
+			"end": "2017-09-06T04:04:58.607Z",
+			"tests": [
+				{
+					"name": "should be first level equal",
+					"start": "2017-09-06T04:04:58.550Z",
+					"end": "2017-09-06T04:04:58.607Z",
+					"duration": 57,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`lqual( true, false )`",
+			"duration": 66,
+			"start": "2017-09-06T04:04:58.608Z",
+			"end": "2017-09-06T04:04:58.674Z",
+			"tests": [
+				{
+					"name": "should not be first level equal",
+					"start": "2017-09-06T04:04:58.608Z",
+					"end": "2017-09-06T04:04:58.674Z",
+					"duration": 66,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		}
+	]
+}
