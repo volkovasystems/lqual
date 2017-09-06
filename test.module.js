@@ -122,7 +122,15 @@ describe( "lqual", ( ) => {
 
 
 //: @client:
+describe( "lqual", ( ) => {
 
+	describe( "`lqual( 0, 0 )`", ( ) => {
+		it( "should be first level equal", ( ) => {
+			assert.equal( lqual( 0, 0 ), true );
+		} );
+	} );
+	
+} );
 //: @end-client
 
 
@@ -238,7 +246,7 @@ describe( "lqual", ( ) => {
 				}
 
 			).value;
-			
+
 			assert.equal( result, false );
 		} );
 	} );
