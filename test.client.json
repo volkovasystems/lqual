@@ -4,8 +4,8 @@
 		"failed": 0,
 		"skipped": 0
 	},
-	"start": "2017-09-07T05:09:35.210Z",
-	"end": "2017-09-07T05:10:27.059Z",
+	"start": "2017-09-07T05:16:58.262Z",
+	"end": "2017-09-07T05:17:40.377Z",
 	"capabilities": {
 		"browserName": "chrome",
 		"chromeOptions": {
@@ -28,148 +28,148 @@
 		{
 			"name": "lqual",
 			"duration": 0,
-			"start": "2017-09-07T05:10:26.412Z",
+			"start": "2017-09-07T05:17:39.753Z",
 			"tests": [],
 			"hooks": []
 		},
 		{
 			"name": "lqual",
-			"duration": 465,
-			"start": "2017-09-07T05:10:26.412Z",
-			"end": "2017-09-07T05:10:26.877Z",
+			"duration": 447,
+			"start": "2017-09-07T05:17:39.753Z",
+			"end": "2017-09-07T05:17:40.200Z",
 			"tests": [],
 			"hooks": [
 				{
-					"start": "2017-09-07T05:10:26.414Z",
-					"end": "2017-09-07T05:10:26.414Z",
+					"start": "2017-09-07T05:17:39.755Z",
+					"end": "2017-09-07T05:17:39.755Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "lqual",
 					"associatedTest": "should be first level equal"
 				},
 				{
-					"start": "2017-09-07T05:10:26.523Z",
-					"end": "2017-09-07T05:10:26.524Z",
+					"start": "2017-09-07T05:17:39.853Z",
+					"end": "2017-09-07T05:17:39.853Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-07T05:17:39.853Z",
+					"end": "2017-09-07T05:17:39.854Z",
 					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-07T05:17:39.903Z",
+					"end": "2017-09-07T05:17:39.903Z",
+					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "lqual",
 					"associatedTest": "should be first level equal"
 				},
 				{
-					"start": "2017-09-07T05:10:26.524Z",
-					"end": "2017-09-07T05:10:26.525Z",
+					"start": "2017-09-07T05:17:39.903Z",
+					"end": "2017-09-07T05:17:39.904Z",
 					"duration": 1,
 					"title": "\"before each\" hook",
 					"associatedSuite": "lqual",
 					"associatedTest": "should be first level equal"
 				},
 				{
-					"start": "2017-09-07T05:10:26.576Z",
-					"end": "2017-09-07T05:10:26.576Z",
+					"start": "2017-09-07T05:17:39.957Z",
+					"end": "2017-09-07T05:17:39.957Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "lqual",
 					"associatedTest": "should be first level equal"
 				},
 				{
-					"start": "2017-09-07T05:10:26.577Z",
-					"end": "2017-09-07T05:10:26.577Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "lqual",
-					"associatedTest": "should be first level equal"
-				},
-				{
-					"start": "2017-09-07T05:10:26.631Z",
-					"end": "2017-09-07T05:10:26.631Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "lqual",
-					"associatedTest": "should be first level equal"
-				},
-				{
-					"start": "2017-09-07T05:10:26.632Z",
-					"end": "2017-09-07T05:10:26.632Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "lqual",
-					"associatedTest": "should be first level equal"
-				},
-				{
-					"start": "2017-09-07T05:10:26.680Z",
-					"end": "2017-09-07T05:10:26.680Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "lqual",
-					"associatedTest": "should be first level equal"
-				},
-				{
-					"start": "2017-09-07T05:10:26.680Z",
-					"end": "2017-09-07T05:10:26.680Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "lqual",
-					"associatedTest": "should be first level equal"
-				},
-				{
-					"start": "2017-09-07T05:10:26.724Z",
-					"end": "2017-09-07T05:10:26.724Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "lqual",
-					"associatedTest": "should be first level equal"
-				},
-				{
-					"start": "2017-09-07T05:10:26.725Z",
-					"end": "2017-09-07T05:10:26.725Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "lqual",
-					"associatedTest": "should be first level equal"
-				},
-				{
-					"start": "2017-09-07T05:10:26.783Z",
-					"end": "2017-09-07T05:10:26.783Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "lqual",
-					"associatedTest": "should be first level equal"
-				},
-				{
-					"start": "2017-09-07T05:10:26.784Z",
-					"end": "2017-09-07T05:10:26.784Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "lqual",
-					"associatedTest": "should be first level equal"
-				},
-				{
-					"start": "2017-09-07T05:10:26.830Z",
-					"end": "2017-09-07T05:10:26.831Z",
+					"start": "2017-09-07T05:17:39.959Z",
+					"end": "2017-09-07T05:17:39.960Z",
 					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-07T05:17:40.009Z",
+					"end": "2017-09-07T05:17:40.009Z",
+					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "lqual",
 					"associatedTest": "should be first level equal"
 				},
 				{
-					"start": "2017-09-07T05:10:26.832Z",
-					"end": "2017-09-07T05:10:26.833Z",
+					"start": "2017-09-07T05:17:40.010Z",
+					"end": "2017-09-07T05:17:40.011Z",
 					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-07T05:17:40.056Z",
+					"end": "2017-09-07T05:17:40.056Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-07T05:17:40.056Z",
+					"end": "2017-09-07T05:17:40.056Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-07T05:17:40.109Z",
+					"end": "2017-09-07T05:17:40.109Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-07T05:17:40.110Z",
+					"end": "2017-09-07T05:17:40.110Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-07T05:17:40.153Z",
+					"end": "2017-09-07T05:17:40.153Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "lqual",
+					"associatedTest": "should be first level equal"
+				},
+				{
+					"start": "2017-09-07T05:17:40.154Z",
+					"end": "2017-09-07T05:17:40.158Z",
+					"duration": 4,
 					"title": "\"before each\" hook",
 					"associatedSuite": "lqual",
 					"associatedTest": "should not be first level equal"
 				},
 				{
-					"start": "2017-09-07T05:10:26.877Z",
-					"end": "2017-09-07T05:10:26.877Z",
-					"duration": 0,
+					"start": "2017-09-07T05:17:40.198Z",
+					"end": "2017-09-07T05:17:40.200Z",
+					"duration": 2,
 					"title": "\"after each\" hook",
 					"associatedSuite": "lqual",
 					"associatedTest": "should not be first level equal"
 				},
 				{
-					"start": "2017-09-07T05:10:26.879Z",
-					"end": "2017-09-07T05:10:26.879Z",
+					"start": "2017-09-07T05:17:40.201Z",
+					"end": "2017-09-07T05:17:40.201Z",
 					"duration": 0,
 					"title": "\"after all\" hook",
 					"associatedSuite": "lqual"
@@ -178,15 +178,15 @@
 		},
 		{
 			"name": "`lqual( 0, 0 )`",
-			"duration": 111,
-			"start": "2017-09-07T05:10:26.413Z",
-			"end": "2017-09-07T05:10:26.524Z",
+			"duration": 100,
+			"start": "2017-09-07T05:17:39.753Z",
+			"end": "2017-09-07T05:17:39.853Z",
 			"tests": [
 				{
 					"name": "should be first level equal",
-					"start": "2017-09-07T05:10:26.413Z",
-					"end": "2017-09-07T05:10:26.523Z",
-					"duration": 110,
+					"start": "2017-09-07T05:17:39.753Z",
+					"end": "2017-09-07T05:17:39.852Z",
+					"duration": 99,
 					"state": "pass"
 				}
 			],
@@ -194,15 +194,15 @@
 		},
 		{
 			"name": "`lqual( null, null )`",
-			"duration": 52,
-			"start": "2017-09-07T05:10:26.524Z",
-			"end": "2017-09-07T05:10:26.576Z",
+			"duration": 50,
+			"start": "2017-09-07T05:17:39.853Z",
+			"end": "2017-09-07T05:17:39.903Z",
 			"tests": [
 				{
 					"name": "should be first level equal",
-					"start": "2017-09-07T05:10:26.524Z",
-					"end": "2017-09-07T05:10:26.576Z",
-					"duration": 52,
+					"start": "2017-09-07T05:17:39.853Z",
+					"end": "2017-09-07T05:17:39.903Z",
+					"duration": 50,
 					"state": "pass"
 				}
 			],
@@ -210,14 +210,14 @@
 		},
 		{
 			"name": "`lqual( undefined, undefined )`",
-			"duration": 55,
-			"start": "2017-09-07T05:10:26.576Z",
-			"end": "2017-09-07T05:10:26.631Z",
+			"duration": 56,
+			"start": "2017-09-07T05:17:39.903Z",
+			"end": "2017-09-07T05:17:39.959Z",
 			"tests": [
 				{
 					"name": "should be first level equal",
-					"start": "2017-09-07T05:10:26.577Z",
-					"end": "2017-09-07T05:10:26.631Z",
+					"start": "2017-09-07T05:17:39.903Z",
+					"end": "2017-09-07T05:17:39.957Z",
 					"duration": 54,
 					"state": "pass"
 				}
@@ -226,15 +226,15 @@
 		},
 		{
 			"name": "`lqual( { }, { } )`",
-			"duration": 49,
-			"start": "2017-09-07T05:10:26.631Z",
-			"end": "2017-09-07T05:10:26.680Z",
+			"duration": 50,
+			"start": "2017-09-07T05:17:39.959Z",
+			"end": "2017-09-07T05:17:40.009Z",
 			"tests": [
 				{
 					"name": "should be first level equal",
-					"start": "2017-09-07T05:10:26.631Z",
-					"end": "2017-09-07T05:10:26.680Z",
-					"duration": 49,
+					"start": "2017-09-07T05:17:39.959Z",
+					"end": "2017-09-07T05:17:40.009Z",
+					"duration": 50,
 					"state": "pass"
 				}
 			],
@@ -242,15 +242,15 @@
 		},
 		{
 			"name": "`lqual( window, window )`",
-			"duration": 44,
-			"start": "2017-09-07T05:10:26.680Z",
-			"end": "2017-09-07T05:10:26.724Z",
+			"duration": 47,
+			"start": "2017-09-07T05:17:40.009Z",
+			"end": "2017-09-07T05:17:40.056Z",
 			"tests": [
 				{
 					"name": "should be first level equal",
-					"start": "2017-09-07T05:10:26.680Z",
-					"end": "2017-09-07T05:10:26.724Z",
-					"duration": 44,
+					"start": "2017-09-07T05:17:40.010Z",
+					"end": "2017-09-07T05:17:40.055Z",
+					"duration": 45,
 					"state": "pass"
 				}
 			],
@@ -258,15 +258,15 @@
 		},
 		{
 			"name": "`lqual( true, true )`",
-			"duration": 59,
-			"start": "2017-09-07T05:10:26.725Z",
-			"end": "2017-09-07T05:10:26.784Z",
+			"duration": 53,
+			"start": "2017-09-07T05:17:40.056Z",
+			"end": "2017-09-07T05:17:40.109Z",
 			"tests": [
 				{
 					"name": "should be first level equal",
-					"start": "2017-09-07T05:10:26.725Z",
-					"end": "2017-09-07T05:10:26.783Z",
-					"duration": 58,
+					"start": "2017-09-07T05:17:40.056Z",
+					"end": "2017-09-07T05:17:40.109Z",
+					"duration": 53,
 					"state": "pass"
 				}
 			],
@@ -274,15 +274,15 @@
 		},
 		{
 			"name": "`lqual( [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 4, 5 ] )`",
-			"duration": 47,
-			"start": "2017-09-07T05:10:26.784Z",
-			"end": "2017-09-07T05:10:26.831Z",
+			"duration": 43,
+			"start": "2017-09-07T05:17:40.110Z",
+			"end": "2017-09-07T05:17:40.153Z",
 			"tests": [
 				{
 					"name": "should be first level equal",
-					"start": "2017-09-07T05:10:26.784Z",
-					"end": "2017-09-07T05:10:26.830Z",
-					"duration": 46,
+					"start": "2017-09-07T05:17:40.110Z",
+					"end": "2017-09-07T05:17:40.153Z",
+					"duration": 43,
 					"state": "pass"
 				}
 			],
@@ -290,15 +290,15 @@
 		},
 		{
 			"name": "`lqual( true, false )`",
-			"duration": 46,
-			"start": "2017-09-07T05:10:26.831Z",
-			"end": "2017-09-07T05:10:26.877Z",
+			"duration": 47,
+			"start": "2017-09-07T05:17:40.153Z",
+			"end": "2017-09-07T05:17:40.200Z",
 			"tests": [
 				{
 					"name": "should not be first level equal",
-					"start": "2017-09-07T05:10:26.831Z",
-					"end": "2017-09-07T05:10:26.877Z",
-					"duration": 46,
+					"start": "2017-09-07T05:17:40.153Z",
+					"end": "2017-09-07T05:17:40.198Z",
+					"duration": 45,
 					"state": "pass"
 				}
 			],

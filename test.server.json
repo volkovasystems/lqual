@@ -5,8 +5,8 @@
 		"passes": 8,
 		"pending": 0,
 		"failures": 0,
-		"start": "2017-09-07T05:09:33.982Z",
-		"end": "2017-09-07T05:09:33.990Z",
+		"start": "2017-09-07T05:16:57.093Z",
+		"end": "2017-09-07T05:16:57.101Z",
 		"duration": 8
 	},
 	"tests": [
@@ -55,7 +55,7 @@
 		{
 			"title": "should be first level equal",
 			"fullTitle": "lqual `lqual( [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 4, 5 ] )` should be first level equal",
-			"duration": 1,
+			"duration": 0,
 			"currentRetry": 0,
 			"err": {}
 		},
@@ -115,7 +115,7 @@
 		{
 			"title": "should be first level equal",
 			"fullTitle": "lqual `lqual( [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 4, 5 ] )` should be first level equal",
-			"duration": 1,
+			"duration": 0,
 			"currentRetry": 0,
 			"err": {}
 		},
