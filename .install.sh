@@ -21,7 +21,7 @@ gulp-rename \
 gulp-replace \
 gulp-sourcemaps \
 mocha \
-should \
+should@12.0.0 \
 source-map-loader \
 wdio-json-reporter \
 wdio-mocha-framework \
